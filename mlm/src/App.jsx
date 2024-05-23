@@ -1,8 +1,10 @@
+import Nav from "./Components/Nav"
+
 let App=()=>{
     return(
         <div>
-          <h1>hgjb</h1>
-        </div>
+        <Nav/>
+        </div>      
     )
 }
 export default App
