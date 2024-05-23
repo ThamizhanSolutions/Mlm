@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.whyCooseBackground{
+    background-color: rgb(25,25,25);
+}
+.whyTitle{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.chooseLetter{
+    background: -webkit-linear-gradient(rgb(233,173,3),rgb(245,245,245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.whyHeading{
+    color: white;
+    /* font-size: 35px; */
+}
+.chooseSubHeading{
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+
+
+}

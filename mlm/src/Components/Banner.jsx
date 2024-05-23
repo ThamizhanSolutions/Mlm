@@ -4,7 +4,7 @@ import Banimg from "../Assets/Images/OBJECTS.png"
 const Banner=()=>{
     return(
         <>
-        <div className="container-fluid">
+        <div className="container-fluid bannerBackground">
             <h1 className="crypto p-2 ">We Provide <span>Crypto</span> Knowledge</h1>
             <div className="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1, row-cols-1 p-3 d-flex justify-content-around">
                 <div className="col col-title">

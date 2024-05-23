@@ -9,7 +9,7 @@ let Nav = () => {
     <>
       <div className="sticky-top">
         <nav className="navbar navbar-expand-md navBackground bsb-navbar bsb-navbar-hover bsb-navbar-caret">
-          <div className="container">
+          <div className="container innerNav">
             <a className="navbar-brand" href="/">
               <img src={logo} alt="MLM Logo" width="200" height="60" className="mx-2 my-2" />
             </a>
@@ -42,13 +42,7 @@ let Nav = () => {
                     <a href="/" className="nav-link menus fw-semibold mx-2">Videos</a>
                   </li>
                   <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">Clients</a>
-                  </li>
-                  <li className="nav-item my-1">
                     <a href="/" className="nav-link menus fw-semibold mx-2">Contact us</a>
-                  </li>
-                  <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">Blog</a>
                   </li>
                   <li className="nav-item my-1">
                     <a href="/" className="nav-link menus fw-semibold mx-2">FAQ</a>
