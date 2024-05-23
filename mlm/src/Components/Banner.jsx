@@ -1,12 +1,13 @@
 import React from "react";
 import "../Assets/Css/Banner.css"
-import Banimg from "../Assets/Images/OBJECTS.png"
+import Banimg from "../Assets/Images/obc.jpg.png"
+import { FaPlay } from "react-icons/fa6";
 const Banner=()=>{
     return(
         <>
         <div className="container-fluid">
-            <h1 className="crypto p-2 ">We Provide <span>Crypto</span> Knowledge</h1>
-            <div className="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1, row-cols-1 p-3 d-flex justify-content-around">
+            <h1 className="crypto  ">We Provide <span>Crypto</span> Knowledge</h1>
+            <div className="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1, row-cols-1  d-flex justify-content-around">
                 <div className="col col-title">
                     <h5>Do you want to make your own Crypto Company?</h5>
                     <p>There's a lot of innovation happening in the cryptocurrency <br></br>
@@ -20,6 +21,11 @@ const Banner=()=>{
                     life.
                     
                     </p>
+                    <div className="btn-2">
+                        <button className="btn ">Start Project </button>
+                        <button className="btn"><FaPlay style={{backgroundColor:"transparent"}} />Play Video </button>
+
+                    </div>
 
                 </div>
                 <div className="col col-title">

@@ -3,28 +3,62 @@
     background-color: rgb(25 25 25);
 }
 .crypto{
+    margin-top: 50px;
+    margin-left: 50px;
     font-weight: 600;
     font-size: 70px;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    color: rgb(245 245 245);;
+    color: rgb(245 245 245);
 }
+.crypto span{
+    background: -webkit-linear-gradient(rgb(233,173,3),rgb(245,245,245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .col-title h5{
+    font-family: "Outfit", sans-serif;
+    margin-left: 60px;
     color: rgb(245 245 245);
     font-size: 30px;
+    margin-top: 10px;
 }
 .col-title p{
+    font-family: "Outfit", sans-serif;
+    margin-left: 60px;
     margin-top: 20px;
     color: rgb(245 245 245);
     font-size: 20px;
     line-height: 40px;
-}
-.col-title img{
-width: 70%;
-margin-left: 100px;
+    font-weight: 400;
 }
 
+.col-title img{
+height: 550px;
+
+}
+.col-title .btn-2{
+   display: flex;
+   gap: 15px;
+   margin-left: 60px;
+ 
+}
+.col-title button{
+    color: rgb(245 245 245);
+    border: 2px solid rgb(233,173,3);
+    padding: 15px 25px;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    transition: 0.5s;
+    font-weight: 400;
+}
+.col-title button:hover{
+    background-color: rgb(233,173,3);
+    color: rgb(245 245 245);
+}
 @media only screen and (max-width: 1125px) {
     .crypto{
         font-size: 50px;
@@ -47,25 +81,46 @@ margin-left: 100px;
 
   @media only screen and (max-width: 750px) {
     .crypto{
+        margin-top: 25px;
+        margin-left: 0px;
         font-size: 30px;
     }
+    .col-title h5{
+        margin-left: 0px;
+        color: rgb(245 245 245);
+        font-size: 22px;
+    }
     .col-title p{
+        margin-left: 0px;
         color: rgb(245 245 245);
         font-size: 16px;
+        line-height: 30px;
     }
+    .col-title img{
+        height: 250px;
+        margin-top: 25px;
+        }
+        .col-title .btn-2{
+            display: flex;
+            gap: 15px;
+           margin-left: 20px;
+         }
   }
  
   @media only screen and (max-width: 500px) {
     .crypto{
         font-size: 20px;
+        margin-left: 10px;
     }
     .col-title h5{
         color: rgb(245 245 245);
         font-size: 15px;
+        margin-left: 10px;
     }
     .col-title p{
         color: rgb(245 245 245);
         font-size: 11px;
+        margin-left: 10px;
     }
   }
   @media only screen and (max-width: 350px) {
