@@ -2,6 +2,7 @@ import Nav from "./Components/Nav";
 import Banner from "./Components/Banner";
 import Services from "./Components/Service";
 import Whychoose from "./Components/Whychoose";
+import Business from "./Components/Business";
 
 let App=()=>{
     return(
@@ -10,6 +11,7 @@ let App=()=>{
         <Banner/>
         <Services/>
         <Whychoose/>
+        <Business/>
         </div>      
     )
 }
