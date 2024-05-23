@@ -20,10 +20,6 @@ function Services(){
                       />
                        </div>
                       <p > {data.productName}</p>
-                     
-                       
-                      
-                   
                     </div>
                   </div>
               );
