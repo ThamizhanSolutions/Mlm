@@ -1,0 +1,80 @@
+.Services{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 70px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(245 245 245);
+}
+.Services span{
+    background: -webkit-linear-gradient(rgb(233,173,3),rgb(245,245,245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card_services{
+   align-items: center;
+   background-color: transparent;
+   border: none;
+   box-shadow: 1px 1px 10px 1px grey;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+}
+.card_services p{
+    color: rgb(245 245 245);
+    font-weight: 500;
+}
+@media only screen and (max-width: 1125px) {
+    .Services{
+        font-size: 50px;
+    }
+   
+  }
+
+
+  @media only screen and (max-width: 750px) {
+    .Services{
+        margin-top: 25px;
+        margin-left: 0px;
+        font-size: 30px;
+    }
+   
+  }
+ 
+  @media only screen and (max-width: 500px) {
+    .Services{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .card_services{
+        align-items: center;
+        background-color: transparent;
+        border: none;
+        box-shadow: 1px 1px 10px 1px grey;
+         height: 150px;
+         width: 150px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+     
+     }
+     .card_services p{
+        color: rgb(245 245 245);
+        font-weight: 500;
+        font-size: 12px;
+    }
+ 
+  }
+  @media only screen and (max-width: 350px) {
+    .Services{
+        font-size: 20px;
+    }
+   
+  
+  }
