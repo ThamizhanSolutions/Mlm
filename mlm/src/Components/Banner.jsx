@@ -5,8 +5,8 @@ import { FaPlay } from "react-icons/fa6";
 const Banner=()=>{
     return(
         <>
-        <div className="container-fluid">
-            <h1 className="crypto  ">We Provide <span>Crypto</span> Knowledge</h1>
+        <div className="container-fluid bannerBackground" >
+            <h1 className="crypto pt-5">We Provide <span>Crypto</span> Knowledge</h1>
             <div className="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1, row-cols-1  d-flex justify-content-around">
                 <div className="col col-title">
                     <h5>Do you want to make your own Crypto Company?</h5>

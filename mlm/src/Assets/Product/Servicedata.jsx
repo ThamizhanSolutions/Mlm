@@ -1,9 +1,9 @@
-import img1 from "../Images/Group 10.png";
-import img2 from "../Images/Group 10.png";
-import img3 from "../Images/Group 10.png";
-import img4 from "../Images/Group 10.png";
-import img5 from "../Images/Group 10.png";
-import img6 from "../Images/Group 10.png";
+import img1 from "../Images/Group 5.png";
+import img2 from "../Images/Group 4.png";
+import img3 from "../Images/why.png";
+import img4 from "../Images/Group 5.png";
+import img5 from "../Images/Group 6.png";
+import img6 from "../Images/Group 9.png";
 
 let ServiceProductData=[
     {
@@ -12,27 +12,27 @@ let ServiceProductData=[
     },
     {
         productName:"Crypto Payment Systems",
-        productImag:img1
+        productImag:img2
     },
  
     {
         productName:"Training and Support",
-        productImag:img1
+        productImag:img3
     },
  
     {
         productName:"Crypto Wallets",
-        productImag:img1
+        productImag:img4
     },
  
     {
         productName:"Crypto Payment Systems",
-        productImag:img1
+        productImag:img5
     },
  
     {
         productName:"Token Sales",
-        productImag:img1
+        productImag:img6
     },
  
 
