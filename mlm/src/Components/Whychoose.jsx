@@ -30,7 +30,7 @@ const reasons = [
 ];
 
 let Whychoose = () => {
-    
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
