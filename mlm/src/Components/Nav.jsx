@@ -22,6 +22,7 @@ let Nav = () => {
                 <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style={{ backgroundColor: "rgb(245, 245, 245)" }}></button>
               </div>
               <div className="offcanvas-body ">
+                <hr />
                 <ul className="navbar-nav justify-content-end flex-grow-1 ">
                   <li className="nav-item my-1">
                     <a href="/" className="nav-link menus fw-semibold mx-2">Home</a>

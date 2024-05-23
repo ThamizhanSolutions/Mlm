@@ -81,7 +81,7 @@ height: 550px;
 
   @media only screen and (max-width: 750px) {
     .crypto{
-        margin-top: 25px;
+        /* margin-top: 25px; */
         margin-left: 0px;
         font-size: 30px;
     }
