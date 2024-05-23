@@ -1,8 +1,8 @@
 import React from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { BiMenuAltRight } from "react-icons/bi";
-import "../Css/Nav.css";
-import logo from "../Images/Logo.png"
+import "../Assets/Css/Nav.css";
+import logo from "../Assets/Images/Logo.png"
 
 let Nav = () => {
   return (
