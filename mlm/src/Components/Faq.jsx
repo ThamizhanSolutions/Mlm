@@ -35,8 +35,8 @@ const Faq = () => {
                             <h5 className="mb-0">
                                 <button className="btn btn-link">
                                     What are the steps that you need to take in order to start my own Crypto company?
-                                    <FontAwesomeIcon icon={faChevronDown} />
-                                    <FontAwesomeIcon icon={faChevronUp} />
+                                    <FontAwesomeIcon icon={faChevronDown} className='faqIconDown'/>
+                                    <FontAwesomeIcon icon={faChevronUp} className='faqIconUp'/>
                                 </button>
                             </h5>
                         </div>
@@ -52,8 +52,8 @@ const Faq = () => {
                             <h5 className="mb-0">
                                 <button className="btn btn-link">
                                     Are you able to offer gaurantee of any kind?
-                                    <FontAwesomeIcon icon={faChevronDown} />
-                                    <FontAwesomeIcon icon={faChevronUp} />
+                                    <FontAwesomeIcon icon={faChevronDown} className='faqIconDown'/>
+                                    <FontAwesomeIcon icon={faChevronUp} className='faqIconUp'/>
                                 </button>
                             </h5>
                         </div>
@@ -69,8 +69,8 @@ const Faq = () => {
                             <h5 className="mb-0">
                                 <button className="btn btn-link">
                                     The length of time that I will be able to use a software after I buy it?
-                                    <FontAwesomeIcon icon={faChevronDown} />
-                                    <FontAwesomeIcon icon={faChevronUp} />
+                                    <FontAwesomeIcon icon={faChevronDown} className='faqIconDown'/>
+                                    <FontAwesomeIcon icon={faChevronUp} className='faqIconUp'/>
                                 </button>
                             </h5>
                         </div>
@@ -86,8 +86,8 @@ const Faq = () => {
                             <h5 className="mb-0">
                                 <button className="btn btn-link">
                                     What is the expected timeframe for delivery from your end after I make the payment
-                                    <FontAwesomeIcon icon={faChevronDown} />
-                                    <FontAwesomeIcon icon={faChevronUp} />
+                                    <FontAwesomeIcon icon={faChevronDown} className='faqIconDown'/>
+                                    <FontAwesomeIcon icon={faChevronUp} className='faqIconUp'/>
                                 </button>
                             </h5>
                         </div>

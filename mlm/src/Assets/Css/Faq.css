@@ -87,6 +87,12 @@
 .accordionBox{
     box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
 }
+.faqIconDown{
+    color: white;
+}
+.faqIconUp{
+    color: rgb(233,173,3);
+}
 
 
 @media (max-width: 1950px) {
