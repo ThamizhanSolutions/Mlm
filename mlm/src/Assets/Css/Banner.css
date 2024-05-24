@@ -47,14 +47,17 @@ height: 550px;
 }
 .col-title button{
     color: rgb(245 245 245);
-    border: 2px solid rgb(233,173,3);
     padding: 15px 25px;
     align-items: center;
     display: flex;
     gap: 5px;
     transition: 0.5s;
     font-weight: 400;
+    border-width: 4px;
+border: 2px solid;
+border-image: linear-gradient(to right, black, rgb(233,173,3)) 1;
 }
+
 .col-title button:hover{
     background-color: rgb(233,173,3);
     color: rgb(245 245 245);

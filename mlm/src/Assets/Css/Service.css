@@ -1,3 +1,17 @@
+
+  .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    transition: all 0.3s ease;
+  }
+
+
 .services-bg{
     background-color: rgb(22, 22, 22);
 }
@@ -16,6 +30,8 @@
     -webkit-text-fill-color: transparent;
 }
 .card_services{
+    position: relative;
+    margin-top: 20px;
    align-items: center;
    background-color: rgb(22 22 22);
    border: none;
@@ -26,12 +42,41 @@
     flex-direction: column;
     justify-content: center;
     gap: 15px;
+    transition: transform .2s;
 
 }
 .card_services p{
     color: rgb(245 245 245);
     font-weight: 500;
 }
+.card_services img{
+    transition: transform .2s;
+}
+.change {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+ 
+  }
+  .card_services:hover {
+    transform: scale(1.1);
+  }
+.card_services:hover .circle img {
+    transform: scale(3.1);
+    margin-top: 50px;
+    opacity: 0.2;
+  }
+  .card_services:hover .circle .product{
+    opacity: 0; 
+  }
+  .card_services:hover .circle p{
+    display: block;
+  }
+
+
+ 
+  
 @media only screen and (max-width: 1125px) {
     .Services{
         font-size: 50px;
@@ -45,6 +90,11 @@
         margin-left: 0px;
         font-size: 30px;
     }
+    .card_services:hover .circle img {
+        transform: scale(2.1);
+        margin-top: 50px;
+        opacity: 0.2;
+      }
    
   }
  
@@ -54,6 +104,7 @@
         margin-left: 10px;
     }
     .card_services{
+        margin-top: 20px;
         align-items: center;
         background-color: transparent;
         border: none;
@@ -69,12 +120,21 @@
         font-weight: 500;
         font-size: 12px;
     }
- 
+    .card_services img:hover + .change {
+        display: block;
+        font-size: 10px;
+        }
+        .card_services:hover .circle p{
+            display: block;
+            font-size: 10px;
+          }
   }
   @media only screen and (max-width: 350px) {
     .Services{
         font-size: 20px;
     }
-   
+
   
   }
+
+

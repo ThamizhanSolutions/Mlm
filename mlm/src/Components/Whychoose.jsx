@@ -45,7 +45,7 @@ let Whychoose = () => {
         <h2 className="text-center mb-5 pt-4 whyTitle" data-aos="fade-in">
           Why <span className="chooseLetter">Choose</span> us?
         </h2>   
-        <div className="row">
+        <div className="row ">
           <div className="col-md-4 text-center text-md-start" data-aos="fade-right">
             <img src={image} alt="Description of image" className="img-fluid" />
           </div>
