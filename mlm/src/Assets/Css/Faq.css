@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.faqBackground{
+    background-color: rgb(25, 25, 25);
+}
+.faqTitle{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.askedQuestions{
+    background: -webkit-linear-gradient(rgb(233,173,3),rgb(245,245,245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.accordion .card {
+    border: none;
+    cursor: pointer;
+}
+
+.accordion .card-header {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    position: relative;
+}
+
+.accordion .card-header h5 {
+    margin-bottom: 0;
+}
+
+.accordion .btn-link {
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 0px;
+
+
+}
+
+
+.accordion .btn-link:hover {
+    text-decoration: none;
+}
+
+.accordion .collapse {
+    border: none;
+}
+
+.accordion .collapsed .fa-chevron-down {
+    display: none;
+}
+
+.accordion .collapsed .fa-chevron-up {
+    display: inline-block;
+}
+
+.accordion .fa-chevron-up {
+    display: none;
+}
+
+.accordion .fa-chevron-down {
+    display: inline-block;
+}
+.accordionContent{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+
+
+@media (max-width: 1950px) {
+    .faqBackground {
+        padding: 40px 0;
+    }
+
+    .faqTitle {
+        font-size: 60px;
+    }
+
+    .faqImage {
+        max-width: 30%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .faqBackground {
+        padding: 30px 0;
+    }
+
+    .faqTitle {
+        font-size: 28px;
+    }
+
+    .faqImage {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .faqTitle {
+        font-size: 24px;
+    }
+
+    .faqImage {
+        max-width: 90%;
+        height: auto;
+    }
+}

@@ -20,7 +20,7 @@ function Services(){
                         alt=""
                       />
                        </div>
-                      <p > {data.Featurename}</p>
+                      <p className="product"> {data.Featurename}</p>
                      
                        
                       

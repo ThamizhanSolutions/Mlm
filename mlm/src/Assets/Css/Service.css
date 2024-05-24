@@ -42,15 +42,15 @@
     flex-direction: column;
     justify-content: center;
     gap: 15px;
-    transition: transform .2s;
+    transition: transform .3s;
 
 }
-.card_services p{
+.card_services .product{
     color: rgb(245 245 245);
     font-weight: 500;
 }
 .card_services img{
-    transition: transform .2s;
+    transition: transform .3s;
 }
 .change {
     display: none;
@@ -70,8 +70,9 @@
   .card_services:hover .circle .product{
     opacity: 0; 
   }
-  .card_services:hover .circle p{
+  .card_services:hover .circle .change{
     display: block;
+    color: rgb(245 245 245);
   }
 
 
