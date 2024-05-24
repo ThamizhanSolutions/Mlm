@@ -94,7 +94,7 @@ const Faq = () => {
                         <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                             <div className="card-body accordionContent" >
                                 <hr />
-                                The download link will be sent to you within 24 hours on working days (Monday-Friday). if it is the weekend then the script will be sent to you within 48 hours (Saturday-Sunday)
+                                The download dfsg link will be sent to you within 24 hours on working days (Monday-Friday). if it is the weekend then the script will be sent to you within 48 hours (Saturday-Sunday)
                             </div>
                         </div>
                     </div>
