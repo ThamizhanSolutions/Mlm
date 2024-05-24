@@ -57,6 +57,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/* .buy{
+    padding: 0px 30px;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: rgb(233,173,3);;
+    color: white;
+    font-weight: 500;
+    background: none;
+} */
 
 @media (max-width: 576px) {
     .nav-link::after {

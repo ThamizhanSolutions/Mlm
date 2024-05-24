@@ -49,6 +49,8 @@ let Nav = () => {
                     <a href="/" className="nav-link menus fw-semibold mx-2">FAQ</a>
                   </li>
                 </ul>
+                {/* <button className="button buy">Login</button> */}
+
               </div>
             </div>
           </div>
