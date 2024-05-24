@@ -29,7 +29,7 @@
 
      transition: transform 0.3s;
  }
- .card:hover {
+ .busniessCard:hover {
      transform: translateY(-10px);
  }
  .card-img-bottom {
@@ -59,3 +59,21 @@
 
  }
  
+
+ @media (max-width: 1950px) {
+    .busniess,.section-title {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .busniess,.section-title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    .busniess,.section-title {
+        font-size: 24px;
+    }
+}

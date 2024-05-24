@@ -30,3 +30,32 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+
+@media (max-width: 1950px) {
+    .faqBackground {
+        padding: 40px 0;
+    }
+
+    .whyTitle {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .faqBackground {
+        padding: 30px 0;
+    }
+
+    .whyTitle {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .whyTitle {
+        font-size: 24px;
+    }
+
+}
