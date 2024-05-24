@@ -5,6 +5,7 @@ import Whychoose from "./Components/Whychoose";
 import Features from "./Components/Features"
 import Business from "./Components/Business";
 import Faq from "./Components/Faq";
+import Footer from "./Components/Footer";
 
 let App=()=>{
     return(
@@ -16,6 +17,7 @@ let App=()=>{
         <Features/>
         <Business/>
         <Faq/>
+        <Footer/>
         </div>      
     )
 }
