@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.back {
+    position: relative;
+    z-index: 0;
+}
+.back::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../Images//backgroundimage.jpg'); 
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    z-index: -1;
+}
+.startProjectTitle{
+    background: -webkit-linear-gradient(rgb(233,173,3),rgb(245,245,245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.startProjectSubTitle{
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(245, 245, 245);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.startProjectCloseButton{
+    border: 1px solid rgb(245, 245, 245);
+    background-color: transparent;
+    color: rgb(233,173,3);
+    font-size: 20px;
+    border-radius: 50%;
+    width: 35px;
+}
+.startPorjectSubmitButton{
+    height: 50px;
+    width: 100%;
+    border: 2px solid rgb(233,173,3);
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.startPorjectSubmitButton:hover{
+    background-color: rgb(233,173,3);
+
+}
+
+
+.MuiOutlinedInput-root {
+    &.Mui-focused .MuiOutlinedInput-notchedOutline {
+        border-color: rgb(233, 173, 3); /* Custom border color */
+    }
+}
+
+.MuiInputLabel-root {
+    color: white;
+}
+
+.MuiInputLabel-root.Mui-focused {
+    color: rgb(233, 173, 3); /* Custom label color */
+}

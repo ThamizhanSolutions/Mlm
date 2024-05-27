@@ -72,6 +72,9 @@
     color: black;
     font-weight: 500;
 }
+Link{
+    cursor: pointer;
+}
 
 @media (max-width: 576px) {
     .nav-link::after {

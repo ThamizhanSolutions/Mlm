@@ -4,6 +4,7 @@ import { BiMenuAltRight } from "react-icons/bi";
 import "../Assets/Css/Nav.css";
 import Memberlogin from "./Login";
 import logo from "../Assets/Images/Logo.png"
+import { Link } from "react-scroll";
 
 let Nav = () => {
   const [modalShow, setModalShow] = useState(false);
@@ -33,12 +34,23 @@ let Nav = () => {
                  
                  
                 
+                
                   <li className="nav-item my-1">
-                    <a href="/videos" className="nav-link menus fw-semibold mx-2">Videos</a>
+                    <a href="/" className="nav-link menus fw-semibold mx-2">Contact us</a>
                   </li>
-                  <li className="nav-item my-1">
-                    <a href="/contactus" className="nav-link menus fw-semibold mx-2">Contact us</a>
-                  </li>
+                  {/* <li className="nav-item my-1">
+                  <a href="/" className="nav-link menus fw-semibold mx-2">Contact us</a>
+                    <Link
+                      to="faq"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                      className="nav-link menus fw-semibold mx-2"
+                    >
+                      FAQ
+                    </Link>
+                  </li> */}
                 
                 <button className="button btn-login"onClick={() => setModalShow(true)}> LOG IN</button> 
                     
