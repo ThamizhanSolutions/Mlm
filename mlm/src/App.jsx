@@ -1,27 +1,17 @@
 import Nav from "./Components/Nav";
-import Banner from "./Components/Banner";
-import Services from "./Components/Service";
-import Whychoose from "./Components/Whychoose";
-import Features from "./Components/Features"
-import Business from "./Components/Business";
-import Faq from "./Components/Faq";
-import Footer from "./Components/Footer";
-// import Startproject from "./Components/Startproject";
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Homepage from "./Pages/Home";
 let App=()=>{
     return(
         <div>
+        <BrowserRouter>
         <Nav/>
-        <Banner/>
-        <Services/>
-        <Whychoose/>
-        <Features/>
-        <Business/>
-        <Faq/>
-        <Footer/>
-        
+         <Routes>
+        <Route path='/' element={<Homepage/>}/>
        
-        {/* <Startproject/> */}
+       </Routes>
+       </BrowserRouter>
+    
         </div>      
     )
 }

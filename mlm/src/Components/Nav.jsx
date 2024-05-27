@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { BiMenuAltRight } from "react-icons/bi";
 import "../Assets/Css/Nav.css";
+import Memberlogin from "./Login";
 import logo from "../Assets/Images/Logo.png"
 import { Link } from "react-scroll";
 
 let Nav = () => {
+  const [modalShow, setModalShow] = useState(false);
   return (
     <>
       <div className="sticky-top">
@@ -43,10 +45,16 @@ let Nav = () => {
                   <li className="nav-item my-1">
                     <Link to="/videos"><a href="/" className="nav-link menus fw-semibold mx-2">Videos</a></Link>
                   </li>
+                  
+                 
+                 
+                
+                
                   <li className="nav-item my-1">
                     <a href="/" className="nav-link menus fw-semibold mx-2">Contact us</a>
                   </li>
-                  <li className="nav-item my-1">
+                  {/* <li className="nav-item my-1">
+                  <a href="/" className="nav-link menus fw-semibold mx-2">Contact us</a>
                     <Link
                       to="faq"
                       spy={true}
@@ -57,12 +65,21 @@ let Nav = () => {
                     >
                       FAQ
                     </Link>
-                  </li>
+                  </li> */}
+                
+                <button className="button btn-login"onClick={() => setModalShow(true)}> LOG IN</button> 
+                    
                 </ul>
+             
+
               </div>
             </div>
           </div>
         </nav>
+        <Memberlogin
+                            show={modalShow}
+                            onHide={() => setModalShow(false)}
+                        />
       </div>
     </>
   );
