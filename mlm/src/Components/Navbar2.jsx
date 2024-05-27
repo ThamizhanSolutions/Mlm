@@ -2,12 +2,10 @@ import React, { useState } from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { BiMenuAltRight } from "react-icons/bi";
 import "../Assets/Css/Nav.css";
-import Memberlogin from "./Login";
 import logo from "../Assets/Images/Logo.png"
 import { Link } from "react-scroll";
 
-let Nav = () => {
-  const [modalShow, setModalShow] = useState(false);
+let Navbar2 = () => {
   const handleLogout = () => {
     // Clear authentication state (replace with your own logout logic)
     // For example, clear token from localStorage
@@ -35,14 +33,32 @@ let Nav = () => {
               <div className="offcanvas-body ">
                 <hr />
                 <ul className="navbar-nav justify-content-end flex-grow-1 ">
-              
+                  <li className="nav-item my-1">
+                    <a href="/" className="nav-link menus fw-semibold mx-2">Home</a>
+                  </li>
                   
                  
                  
                 
-            
                 
-                <button className="button btn-login"onClick={() => setModalShow(true)}> LOG IN</button> 
+                  <li className="nav-item my-1">
+                    <a href="/contactus" className="nav-link menus fw-semibold mx-2">Contact us</a>
+                  </li>
+                  {/* <li className="nav-item my-1">
+                  <a href="/" className="nav-link menus fw-semibold mx-2">Contact us</a>
+                    <Link
+                      to="faq"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                      className="nav-link menus fw-semibold mx-2"
+                    >
+                      FAQ
+                    </Link>
+                  </li> */}
+                
+                <button className="button btn-login mx-4" onClick={handleLogout}> LOG OUT</button> 
                     
                 </ul>
              
@@ -51,13 +67,10 @@ let Nav = () => {
             </div>
           </div>
         </nav>
-        <Memberlogin
-                            show={modalShow}
-                            onHide={() => setModalShow(false)}
-                        />
+     
       </div>
     </>
   );
 }
 
-export default Nav;
+export default Navbar2;

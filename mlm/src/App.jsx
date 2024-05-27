@@ -1,15 +1,17 @@
-import Nav from "./Components/Nav";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Router, Routes} from 'react-router-dom';
 import Homepage from "./Pages/Home";
+import Homepg from "./Pages/Homepage";
 let App=()=>{
     return(
         <div>
-        <Nav/>
         <BrowserRouter>
        <Routes>
+
         <Route path='/' element={<Homepage/>}/>
-       
+        <Route path='/homepage' element={<Homepg/>}/>
        </Routes>
+      
+
        </BrowserRouter>
     
         </div>      
