@@ -1,0 +1,85 @@
+.login-col{
+    padding: 30px;
+background: rgba(153, 140, 140, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}
+
+
+.signup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup h1{
+    background: -webkit-linear-gradient(rgb(233,173,3),rgb(245,245,245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.join{
+   margin-top: 10px;
+   padding: 10px;
+   color: white;
+
+}
+.fill input{
+    padding: 15px;
+    border: 2px solid  rgb(233,173,3);
+    border-radius: 15px;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+
+.close{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(233,173,3);
+    background-color:  rgba(255, 255, 255, 0.2);
+    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.close-back{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color:  rgba(255, 255, 255, 0.2);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.forgot-pswrd{
+    color: white;
+}
+.login-col p{
+    margin-top: 10px;
+    text-align: center;
+}
+.but{
+    width: 100%;
+    padding: 15px;
+    border: 3px solid  rgb(233,173,3);
+    background-color: transparent;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.but:hover{
+    background-color: rgb(233,173,3);;
+}
+.sign-a a{
+    background: -webkit-linear-gradient(rgb(233,173,3),rgb(245,245,245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}

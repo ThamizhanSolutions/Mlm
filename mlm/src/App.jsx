@@ -1,21 +1,20 @@
 import Nav from "./Components/Nav";
-import Banner from "./Components/Banner";
-import Services from "./Components/Service";
-import Whychoose from "./Components/Whychoose";
-import Features from "./Components/Features"
-import Business from "./Components/Business";
-import Faq from "./Components/Faq";
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Homepage from "./Pages/Home";
+
 
 let App=()=>{
     return(
         <div>
         <Nav/>
-        <Banner/>
-        <Services/>
-        <Whychoose/>
-        <Features/>
-        <Business/>
-        <Faq/>
+        <BrowserRouter>
+       <Routes>
+        <Route path='/' element={<Homepage/>}/>
+       
+       </Routes>
+       </BrowserRouter>
+    
         </div>      
     )
 }
