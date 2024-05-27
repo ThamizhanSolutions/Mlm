@@ -5,6 +5,7 @@ import icon from "../Assets/Images/icon.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Features from "./Features";
 
 const reasons = [
   {

@@ -5,8 +5,8 @@ let App=()=>{
     return(
         <div>
         <BrowserRouter>
-       <Routes>
 
+         <Routes>
         <Route path='/' element={<Homepage/>}/>
         <Route path='/homepage' element={<Homepg/>}/>
        </Routes>

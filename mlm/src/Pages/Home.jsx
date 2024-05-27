@@ -6,6 +6,7 @@ import Business from "../Components/Business";
 import Faq from "../Components/Faq";
 import Banner from "../Components/Banner";
 import Nav from "../Components/Nav";
+import Footer from "../Components/Footer";
 function Homepage(){
     return(
         <div>
@@ -16,6 +17,7 @@ function Homepage(){
         <Features/>
         <Business/>
         <Faq/>
+        <Footer/>
     
         </div>      
     )

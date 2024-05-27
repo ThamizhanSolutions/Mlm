@@ -14,7 +14,7 @@
     background-image: url('../Images//backgroundimage.jpg'); 
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
+    opacity: 0.9;
     z-index: -1;
 }
 .startProjectTitle{

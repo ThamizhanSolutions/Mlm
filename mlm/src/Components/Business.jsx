@@ -8,6 +8,7 @@ import busniess3 from "../Assets/Images/busniess3.png";
 import busniess4 from "../Assets/Images/busniess4.png";
 import busniess5 from "../Assets/Images/busniess5.png";
 import busniess6 from "../Assets/Images/busniess6.png";
+import Faq from "./Faq";
 
 const cards = [
     {

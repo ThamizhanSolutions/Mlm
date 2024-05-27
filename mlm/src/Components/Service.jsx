@@ -6,6 +6,7 @@ import "../Assets/Css/Service.css";
 import ServiceProductData from "../Assets/Product/Servicedata";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Whychoose from "./Whychoose";
 
 function Services() {
   useEffect(() => {
