@@ -57,6 +57,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+Link{
+    cursor: pointer;
+}
 
 @media (max-width: 576px) {
     .nav-link::after {

@@ -3,6 +3,7 @@ import { CgMenuRight } from "react-icons/cg";
 import { BiMenuAltRight } from "react-icons/bi";
 import "../Assets/Css/Nav.css";
 import logo from "../Assets/Images/Logo.png"
+import { Link } from "react-scroll";
 
 let Nav = () => {
   return (
@@ -46,7 +47,16 @@ let Nav = () => {
                     <a href="/" className="nav-link menus fw-semibold mx-2">Contact us</a>
                   </li>
                   <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">FAQ</a>
+                    <Link
+                      to="faq"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                      className="nav-link menus fw-semibold mx-2"
+                    >
+                      FAQ
+                    </Link>
                   </li>
                 </ul>
               </div>

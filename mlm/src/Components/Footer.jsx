@@ -16,7 +16,7 @@ const Footer = () => {
     }, []);
 
   return (
-    <footer className="footer-section" >
+    <footer className="footer-section " >
       <div className="container" data-aos="fade-up">
         <div className="row">
           <div className="col-md-6">

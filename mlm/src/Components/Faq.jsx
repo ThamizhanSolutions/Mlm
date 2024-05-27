@@ -19,7 +19,7 @@ const Faq = () => {
     }, []);
 
     return (
-        <div className='faqBackground'>
+        <div id='faq'  className='faqBackground'>
             <div className="container">
                 <div className="row text-center">
                     <h1 className='mt-5 faqTitle' data-aos="fade-in">Frequently <span className='askedQuestions'>Asked Questions</span></h1>

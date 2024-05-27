@@ -1,7 +1,6 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
-import image from "../Assets/Images/why.png";
 import "../Assets/Css/Business.css";
 import busniess1 from "../Assets/Images/busniess1.png";
 import busniess2 from "../Assets/Images/busniess2.png";

@@ -8,7 +8,9 @@ import "../Assets/Css/Startproject.css";
 import { IoClose } from "react-icons/io5";
 
 let Startproject = (props) => {
+
     return (
+        
         <div>
             <Modal
                 {...props}
@@ -36,7 +38,7 @@ let Startproject = (props) => {
                             sx={{
                                 '& .MuiOutlinedInput-root': {
                                     '& fieldset': {
-                                        borderColor: 'white',
+                                        borderColor: 'rgb(233, 173, 3)',
                                         borderRadius: '24px', // Add border radius here
                                     },
                                     '&:hover fieldset': {
@@ -63,7 +65,7 @@ let Startproject = (props) => {
                             sx={{
                                 '& .MuiOutlinedInput-root': {
                                     '& fieldset': {
-                                        borderColor: 'white',
+                                        borderColor: 'rgb(233, 173, 3)',
                                         borderRadius: '24px', // Add border radius here
                                     },
                                     '&:hover fieldset': {
@@ -78,6 +80,7 @@ let Startproject = (props) => {
                                 },
                                 '& .MuiInputLabel-root.Mui-focused': {
                                     color: 'rgb(233, 173, 3)',
+                                    
                                 },
                             }}
                         />
@@ -90,7 +93,7 @@ let Startproject = (props) => {
                             sx={{
                                 '& .MuiOutlinedInput-root': {
                                     '& fieldset': {
-                                        borderColor: 'white',
+                                        borderColor: 'rgb(233, 173, 3)',
                                         borderRadius: '24px', // Add border radius here
                                     },
                                     '&:hover fieldset': {
@@ -117,7 +120,7 @@ let Startproject = (props) => {
                             sx={{
                                 '& .MuiOutlinedInput-root': {
                                     '& fieldset': {
-                                        borderColor: 'white',
+                                        borderColor: 'rgb(233, 173, 3)',
                                         borderRadius: '24px', // Add border radius here
                                     },
                                     '&:hover fieldset': {
@@ -145,7 +148,7 @@ let Startproject = (props) => {
                             sx={{
                                 '& .MuiOutlinedInput-root': {
                                     '& fieldset': {
-                                        borderColor: 'white',
+                                        borderColor: 'rgb(233, 173, 3)',
                                         borderRadius: '24px', // Add border radius here
                                     },
                                     '&:hover fieldset': {
@@ -178,7 +181,7 @@ let Startproject = (props) => {
                             sx={{
                                 '& .MuiOutlinedInput-root': {
                                     '& fieldset': {
-                                        borderColor: 'white',
+                                        borderColor: 'rgb(233, 173, 3)',
                                         borderRadius: '24px', // Add border radius here
                                     },
                                     '&:hover fieldset': {

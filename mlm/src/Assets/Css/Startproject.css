@@ -14,7 +14,7 @@
     background-image: url('../Images//backgroundimage.jpg'); 
     background-size: cover;
     background-position: center;
-    opacity: 0.9;
+    opacity: 0.8;
     z-index: -1;
 }
 .startProjectTitle{
@@ -44,8 +44,8 @@
     width: 35px;
 }
 .startPorjectSubmitButton{
-    height: 40px;
-    width: 370px;
+    height: 50px;
+    width: 100%;
     border: 2px solid rgb(233,173,3);
     border-radius: 8px;
     background-color: transparent;
@@ -55,7 +55,8 @@
     font-style: normal;
 }
 .startPorjectSubmitButton:hover{
-    background-color: rgb(#e9ad03, #c49203, #ffa840);
+    background-color: rgb(233,173,3);
+
 }
 
 
