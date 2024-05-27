@@ -10,7 +10,7 @@ function Services(){
 
   useEffect(() => {
     AOS.init({
-        duration: 1000,
+        duration: 2000,
         easing: "ease-in-out",
         once: true,
     });

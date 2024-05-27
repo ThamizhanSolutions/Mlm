@@ -6,6 +6,7 @@ import Features from "./Components/Features"
 import Business from "./Components/Business";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
+// import Startproject from "./Components/Startproject";
 
 let App=()=>{
     return(
@@ -18,6 +19,7 @@ let App=()=>{
         <Business/>
         <Faq/>
         <Footer/>
+        {/* <Startproject/> */}
         </div>      
     )
 }

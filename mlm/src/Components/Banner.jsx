@@ -2,7 +2,12 @@ import React from "react";
 import "../Assets/Css/Banner.css"
 import Banimg from "../Assets/Images/obc.jpg.png"
 import { FaPlay } from "react-icons/fa6";
+import Startproject from "./Startproject";
+
 const Banner=()=>{
+
+    const [modalShow, setModalShow] = React.useState(false);
+    
     return(
         <>
         <div className="container-fluid bannerBackground" >
@@ -22,7 +27,7 @@ const Banner=()=>{
                     
                     </p>
                     <div className="btn-2">
-                        <button className="btn ">Start Project </button>
+                        <button onClick={() => setModalShow(true)} className="btn ">Start Project </button>
                         <button className="btn"><FaPlay style={{backgroundColor:"transparent"}} />Play Video </button>
 
                     </div>
@@ -33,6 +38,9 @@ const Banner=()=>{
                     
                     </div>
             </div>
+            <Startproject
+            show={modalShow}
+            onHide={()=> setModalShow(false)}/>
         </div>
         </>
     )
