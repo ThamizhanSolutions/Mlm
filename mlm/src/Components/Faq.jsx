@@ -6,6 +6,7 @@ import image from "../Assets/Images/accordionImage.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import  { useEffect } from "react";
+import Footer from './Footer';
 
 
 const Faq = () => {

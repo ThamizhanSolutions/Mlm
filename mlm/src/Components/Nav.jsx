@@ -41,7 +41,7 @@ let Nav = () => {
                     <a href="/" className="nav-link menus fw-semibold mx-2">Apps</a>
                   </li>
                   <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">Videos</a>
+                    <Link to="/videos"><a href="/" className="nav-link menus fw-semibold mx-2">Videos</a></Link>
                   </li>
                   <li className="nav-item my-1">
                     <a href="/" className="nav-link menus fw-semibold mx-2">Contact us</a>

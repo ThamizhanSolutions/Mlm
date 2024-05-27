@@ -19,6 +19,8 @@ let App=()=>{
         <Business/>
         <Faq/>
         <Footer/>
+        
+       
         {/* <Startproject/> */}
         </div>      
     )

@@ -5,8 +5,9 @@ import Featuresdata from "../Assets/Product/Featuresdata";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import  { useEffect } from "react";
+import Business from "./Business";
 
-function Services(){
+function Features(){
 
   useEffect(() => {
     AOS.init({
@@ -46,4 +47,4 @@ function Services(){
        </div>
     )
 }
-export default Services
+export default Features

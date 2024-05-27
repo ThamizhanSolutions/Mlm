@@ -3,7 +3,7 @@ import "../Assets/Css/Banner.css"
 import Banimg from "../Assets/Images/obc.jpg.png"
 import { FaPlay } from "react-icons/fa6";
 import Startproject from "./Startproject";
-
+import Services from "./Service";
 const Banner=()=>{
 
     const [modalShow, setModalShow] = React.useState(false);
