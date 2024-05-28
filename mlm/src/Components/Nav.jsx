@@ -37,40 +37,8 @@ let Nav = () => {
               <div className="offcanvas-body ">
                 <hr />
                 <ul className="navbar-nav justify-content-end flex-grow-1 ">
-                  <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">Home</a>
-                  </li>
-                  <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">About</a>
-                  </li>
-                  <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">Products</a>
-                  </li>
-                  <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">Services</a>
-                  </li>
-                  <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">Apps</a>
-                  </li>
-                  <li className="nav-item my-1">
-                   <Link to="/videos"className="nav-link menus fw-semibold mx-2">Videos</Link>
-                  </li>
-                  <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">Contact us</a>
-                  </li>
-                  {/* <li className="nav-item my-1">
-                  <a href="/" className="nav-link menus fw-semibold mx-2">Contact us</a>
-                    <Link
-                      to="faq"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                      className="nav-link menus fw-semibold mx-2"
-                    >
-                      FAQ
-                    </Link>
-                  </li> */}
+                  
+                 
               
                   
                  
