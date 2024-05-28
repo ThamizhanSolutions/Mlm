@@ -6,6 +6,7 @@ import Business from "../Components/Business";
 import Faq from "../Components/Faq";
 import Banner2 from "../Components/Banner2";
 import Navbar2 from "../Components/Navbar2";
+import Footer from "../Components/Footer";
 function Homepg(){
     return(
         <div>
@@ -16,6 +17,7 @@ function Homepg(){
         <Features/>
         <Business/>
         <Faq/>
+        <Footer/>
     
         </div>      
     )
