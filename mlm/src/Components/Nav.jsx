@@ -4,10 +4,12 @@ import { BiMenuAltRight } from "react-icons/bi";
 import "../Assets/Css/Nav.css";
 import Memberlogin from "./Login";
 import logo from "../Assets/Images/Logo.png"
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 let Nav = () => {
+
   const [modalShow, setModalShow] = useState(false);
+  
   return (
     <>
       <div className="sticky-top">
@@ -43,13 +45,8 @@ let Nav = () => {
                     <a href="/" className="nav-link menus fw-semibold mx-2">Apps</a>
                   </li>
                   <li className="nav-item my-1">
-                    <Link to="/videos"><a href="/" className="nav-link menus fw-semibold mx-2">Videos</a></Link>
+                   <Link to="/videos"className="nav-link menus fw-semibold mx-2">Videos</Link>
                   </li>
-                  
-                 
-                 
-                
-                
                   <li className="nav-item my-1">
                     <a href="/" className="nav-link menus fw-semibold mx-2">Contact us</a>
                   </li>

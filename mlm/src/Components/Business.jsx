@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import "../Assets/Css/Business.css";
 import busniess1 from "../Assets/Images/busniess1.png";
-import busniess2 from "../Assets/Images/busniess2.png";
+// import busniess2 from "../Assets/Images/busniess2.png";
 import busniess3 from "../Assets/Images/busniess3.png";
 import busniess4 from "../Assets/Images/busniess4.png";
 import busniess5 from "../Assets/Images/busniess5.png";
@@ -19,7 +19,7 @@ const cards = [
     {
       title: "Analyze the risk",
       description: "There are significant risks associaated with our crypto plans. The valye of cryptocurrencies can be highly volatile, and there have been numerous cases of MLM crypto schemes turning out to be scams or ponzi schemes.",
-      image: busniess2,
+      image: busniess1,
     },
     {
       title: "Componsation structure",

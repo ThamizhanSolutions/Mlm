@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.binaryBackground {
+    background-color: rgb(22, 22, 22);
+    padding: 20px 0;
+}
+
+.binaryTitle {
+    font-size: 36px;
+    background: -webkit-linear-gradient(rgb(233, 173, 3), rgb(245, 245, 245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Outfit', sans-serif;
+}
+
+.binarySubTitle p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+
+.cardBackground {
+    background-color: rgb(25, 25, 25);
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.cardBody {
+    padding: 20px;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.videoCardTitle {
+    background: -webkit-linear-gradient(rgb(233, 173, 3), rgb(245, 245, 245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+}
+
+.videoCardSubTitle {
+    color: white;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.video-icon {
+    position: absolute;
+    top: 76%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(233, 173, 3);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.overlay {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    transition: top 0.3s ease;
+    z-index: 1;
+}
+
+.card:hover .overlay {
+    top: 0;
+}
+
+.card:hover .video-icon {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+.card:hover .cardBody {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

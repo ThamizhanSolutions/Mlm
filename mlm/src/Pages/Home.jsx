@@ -6,6 +6,7 @@ import Features from "../Components/Features";
 import Business from "../Components/Business";
 import Faq from "../Components/Faq";
 import Footer from "../Components/Footer";
+
 function Homepage(){
     return(
         <div>
