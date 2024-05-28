@@ -3,11 +3,9 @@ import "../Assets/Css/Banner.css"
 import Banimg from "../Assets/Images/obc.jpg.png"
 import { FaPlay } from "react-icons/fa6";
 import Startproject from "./Startproject";
-import Memberlogin from "./Login";
 
 
-import Services from "./Service";
-const Banner=()=>{
+const Banner2=()=>{
 
     const [modalShow, setModalShow] = React.useState(false);
     
@@ -41,16 +39,13 @@ const Banner=()=>{
                     
                     </div>
             </div>
-            {/* <Startproject
+            <Startproject
             show={modalShow}
-            onHide={()=> setModalShow(false)}/> */}
-              <Memberlogin
-                            show={modalShow}
-                            onHide={() => setModalShow(false)}
-                        />
+            onHide={()=> setModalShow(false)}/>
+             
             
         </div>
         </>
     )
 }
-export default Banner;
+export default Banner2;

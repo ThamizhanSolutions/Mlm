@@ -2,14 +2,10 @@ import React, { useState } from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { BiMenuAltRight } from "react-icons/bi";
 import "../Assets/Css/Nav.css";
-import Memberlogin from "./Login";
 import logo from "../Assets/Images/Logo.png"
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
-let Nav = () => {
-
-  const [modalShow, setModalShow] = useState(false);
-  
+let Navbar2 = () => {
   const handleLogout = () => {
     // Clear authentication state (replace with your own logout logic)
     // For example, clear token from localStorage
@@ -40,23 +36,13 @@ let Nav = () => {
                   <li className="nav-item my-1">
                     <a href="/" className="nav-link menus fw-semibold mx-2">Home</a>
                   </li>
+                  
+                 
+                 
+                
+                
                   <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">About</a>
-                  </li>
-                  <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">Products</a>
-                  </li>
-                  <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">Services</a>
-                  </li>
-                  <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">Apps</a>
-                  </li>
-                  <li className="nav-item my-1">
-                   <Link to="/videos"className="nav-link menus fw-semibold mx-2">Videos</Link>
-                  </li>
-                  <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">Contact us</a>
+                    <a href="/contactus" className="nav-link menus fw-semibold mx-2">Contact us</a>
                   </li>
                   {/* <li className="nav-item my-1">
                   <a href="/" className="nav-link menus fw-semibold mx-2">Contact us</a>
@@ -71,14 +57,8 @@ let Nav = () => {
                       FAQ
                     </Link>
                   </li> */}
-              
-                  
-                 
-                 
                 
-            
-                
-                <button className="button btn-login"onClick={() => setModalShow(true)}> LOG IN</button> 
+                <button className="button btn-login mx-4" onClick={handleLogout}> LOG OUT</button> 
                     
                 </ul>
              
@@ -87,13 +67,10 @@ let Nav = () => {
             </div>
           </div>
         </nav>
-        <Memberlogin
-                            show={modalShow}
-                            onHide={() => setModalShow(false)}
-                        />
+     
       </div>
     </>
   );
 }
 
-export default Nav;
+export default Navbar2;

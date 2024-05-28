@@ -1,10 +1,12 @@
 import image from "../Assets/Images/VideoImage.png"
 import "../Assets/Css/Video.css"
 import Binary from "./Binary"
+import Navbar2 from "./Navbar2"
 let Videos=()=>{
     return(
 
 <div className="videoBackground">
+    <Navbar2/>
 
     <div class="container">
         <div class="row">

@@ -4,23 +4,20 @@ import Whychoose from "../Components/Whychoose";
 import Features from "../Components/Features";
 import Business from "../Components/Business";
 import Faq from "../Components/Faq";
-import Banner from "../Components/Banner";
-import Nav from "../Components/Nav";
-import Footer from "../Components/Footer";
-
-function Homepage(){
+import Banner2 from "../Components/Banner2";
+import Navbar2 from "../Components/Navbar2";
+function Homepg(){
     return(
         <div>
-            <Nav/>
-            <Banner/>
+            <Navbar2/>
+            <Banner2/>
         <Services/>
         <Whychoose/>
         <Features/>
         <Business/>
         <Faq/>
-        <Footer/>
     
         </div>      
     )
 }
-export default Homepage
+export default Homepg
