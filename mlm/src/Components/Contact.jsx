@@ -55,22 +55,24 @@ let Contact=()=>{
         </div>
     </div>
     <div className="container text-center mt-5" data-aos="fade-up">
-        <div className="row">
-            <div className="col"><img src={location} alt="" className="img-fluid" style={{height:"40px"}}/></div>
-            <div className="col"><img src={mail} alt="" className="img-fluid" style={{height:"40px"}}/></div>
-            <div className="col"><img src={phone} alt="" className="img-fluid" style={{height:"40px"}}/></div>
+            <div className="row">
+                <div className="col-12 col-md-4 mb-3 mb-md-0">
+                    <img src={location} alt="Location" className="img-fluid" style={{ height: "40px" }} />
+                    <h5 className="contactSubTitle mt-3">Location</h5>
+                    <h5 className="contactSecondSubTitle mt-2">Madurai</h5>
+                </div>
+                <div className="col-12 col-md-4 mb-3 mb-md-0">
+                    <img src={mail} alt="Email" className="img-fluid" style={{ height: "40px" }} />
+                    <h5 className="contactSubTitle mt-3">Email</h5>
+                    <h5 className="contactSecondSubTitle mt-2">madurai08@gmail.com</h5>
+                </div>
+                <div className="col-12 col-md-4 mb-3 mb-md-0">
+                    <img src={phone} alt="Phone" className="img-fluid" style={{ height: "40px" }} />
+                    <h5 className="contactSubTitle mt-3">Phone</h5>
+                    <h5 className="contactSecondSubTitle mt-2">+91 9876543210</h5>
+                </div>
+            </div>
         </div>
-        <div className="row">
-            <div className="col"><h5 className="contactSubTitle mt-3">Location</h5></div>
-            <div className="col"><h5 className="contactSubTitle mt-3">Email</h5></div>
-            <div className="col"><h5 className="contactSubTitle mt-3">Phone</h5></div>
-        </div>
-        <div className="row">
-            <div className="col"><h5 className="contactSecondSubTitle mt-2" >Madurai</h5></div>
-            <div className="col"><h5 className="contactSecondSubTitle mt-2" >madurai08@gmail.com</h5></div>
-            <div className="col"><h5 className="contactSecondSubTitle mt-2" >+91 9876543210</h5></div>
-        </div>
-    </div>
     </div>
 
     <Footer/>
