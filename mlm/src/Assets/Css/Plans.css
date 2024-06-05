@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
 .plansBackground{
     background-color: rgb(22, 22, 22);
 
@@ -53,11 +55,10 @@
     transition: 0.5s;
 }
 .plansButton:hover{
-    background-color: rgb(233,173,3);;
-
+    background-color: rgb(233,173,3);
 }
 .top-left-radio {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
 }

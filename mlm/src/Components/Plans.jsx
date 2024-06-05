@@ -4,13 +4,25 @@ import image from "../Assets/Images/plans.png";
 import tick from "../Assets/Images/tick.png"
 import "../Assets/Css/Plans.css";
 import Footer from "./Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
 
 let Plans = () => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            easing: "ease-in-out",
+            once: true,
+        });
+    }, []);
+
     return (
         <div className="plansBackground">
             <Navbar2 />
-            <div className="container text-center">
+            <div className="container text-center" data-aos="fade-in">
                 <div className="row">
                     <h1 className="plansTitle mt-5">Our Pricing Plans</h1>
                 </div>
@@ -21,7 +33,7 @@ let Plans = () => {
                     <img src={image} alt="" className="img-fluid mt-3" />
                 </div>
             </div>
-            <div className="container d-flex justify-content-center mt-5">
+            <div className="container d-flex justify-content-center mt-5" data-aos="fade-right">
                 <div className="col-md-6">
                     <div className="card position-relative">
                         <div className="card-body plansCardBody">
@@ -46,7 +58,7 @@ let Plans = () => {
                     </div>
                 </div>
             </div>
-            <div className="container d-flex justify-content-center mt-5">
+            <div className="container d-flex justify-content-center mt-5" data-aos="fade-left">
                 <div className="col-md-6">
                     <div className="card position-relative">
                         <div className="card-body plansCardBody">
@@ -71,7 +83,7 @@ let Plans = () => {
                     </div>
                 </div>
             </div>
-            <div className="container d-flex justify-content-center mt-5 mb-5">
+            <div className="container d-flex justify-content-center mt-5 mb-5" data-aos="fade-right">
                 <div className="col-md-6">
                     <div className="card plansCard position-relative">
                         <div className="card-body plansCardBody">
