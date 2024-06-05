@@ -5,10 +5,10 @@
 }
 .contactBlock{
     background-color: rgb(25, 25, 25);
-    border: 1px solid  rgb(0, 0, 0);
     width: 75%;
     margin: 0 auto;
-    box-shadow: 0 4px 2px -2px rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+
 
 }
 .contactTitle{
