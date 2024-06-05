@@ -10,8 +10,8 @@ import Footer from "../Components/Footer";
 function Homepg(){
     return(
         <div>
-            <Navbar2/>
-            <Banner2/>
+        <Navbar2/>
+        <Banner2/>
         <Services/>
         <Whychoose/>
         <Features/>

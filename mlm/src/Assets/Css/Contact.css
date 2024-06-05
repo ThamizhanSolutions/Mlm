@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.contactBackground{
+    background-color: rgb(22, 22, 22);
+}
+.contactBlock{
+    background-color: rgb(25, 25, 25);
+    border: 1px solid  rgb(0, 0, 0);
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0 4px 2px -2px rgb(0, 0, 0);
+
+}
+.contactTitle{
+    font-size: 36px;
+    background: -webkit-linear-gradient(rgb(233, 173, 3), rgb(245, 245, 245));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Outfit', sans-serif;
+}
+.contactSubTitle{
+    font-size: 18px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+.contactSecondSubTitle{
+    font-size: 10px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+.contactInput{
+    padding: 15px;
+    border: 2px solid  rgb(233,173,3);
+    border-radius: 15px;
+    background-color: transparent;
+    font-weight: 500;
+}
+.contactInput::placeholder{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+
+}
+.contactButton{
+    width: 100%;
+    padding: 15px;
+    border: 3px solid  rgb(233,173,3);
+    background-color: transparent;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.contactButton:hover{
+    background-color: rgb(233,173,3);;
+
+}
+@media (max-width: 1950px) {
+    .contactSecondSubTitle {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactSecondSubTitle {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 760px) {
+    .contactSecondSubTitle {
+        font-size: 12px;
+    }
+}

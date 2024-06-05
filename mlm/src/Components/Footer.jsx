@@ -1,23 +1,15 @@
 import React from "react";
 import "../Assets/Css/Footer.css";
 import logo from "../Assets/Images/Logo.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
+
 
 const Footer = () => {
 
-    useEffect(() => {
-        AOS.init({
-            duration: 2000,
-            easing: "ease-in-out",
-            once: true,
-        });
-    }, []);
+
 
   return (
     <footer className="footer-section " >
-      <div className="container" data-aos="fade-up">
+      <div className="container" >
         <div className="row">
           <div className="col-md-6">
             <div className="logo-container d-flex justify-content-start">

@@ -41,7 +41,10 @@ let Navbar2 = () => {
                    <Link to="/videos" className="nav-link menus fw-semibold mx-2">Videos</Link>
                   </li>
                   <li className="nav-item my-1">
-                    <a href="/contactus" className="nav-link menus fw-semibold mx-2">Contact us</a>
+                   <Link to="/plans" className="nav-link menus fw-semibold mx-2">Plans</Link>
+                  </li>
+                  <li className="nav-item my-1">
+                    <Link to="/contact" className="nav-link menus fw-semibold mx-2">Contact us</Link>
                   </li>
                 
                 <button className="button btn-login mx-4" onClick={handleLogout}> LOG OUT</button> 

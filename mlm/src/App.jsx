@@ -3,6 +3,8 @@ import Homepage from "./Pages/Home";
 import Videos from "./Components/Videos";
 import Nav from './Components/Nav';
 import Homepg from "./Pages/Homepage";
+import Contact from './Components/Contact';
+import Plans from "../src/Components/Plans"
 let App=()=>{
     return(
         <div>
@@ -10,7 +12,9 @@ let App=()=>{
 
          <Routes>
         <Route path='/' element={<Homepage/>}/>
+        <Route path='/plans' element={<Plans/>}/>
         <Route path="/videos" element={<Videos/>}/>
+        <Route path='/contact' element={<Contact/>}/>
         <Route path='/homepage' element={<Homepg/>}/>
        </Routes>
       
