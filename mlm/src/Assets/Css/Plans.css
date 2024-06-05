@@ -42,6 +42,20 @@
 .plansList{
     line-height: 2;
 }
+.plansButton{
+    width: 35%;
+    padding: 15px;
+    border: 3px solid  rgb(233,173,3);
+    background-color: transparent;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.plansButton:hover{
+    background-color: rgb(233,173,3);;
+
+}
 .top-left-radio {
     position: absolute;
     top: 10px;

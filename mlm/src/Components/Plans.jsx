@@ -96,6 +96,11 @@ let Plans = () => {
                     </div>
                 </div>
             </div>
+            <div className="container">
+                <div className="row d-flex justify-content-center mb-5">
+                    <button className="plansButton">Buy Plans</button>
+                </div>
+            </div>
             <Footer/>
         </div>
     );
