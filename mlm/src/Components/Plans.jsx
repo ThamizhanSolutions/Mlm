@@ -10,6 +10,7 @@ import React, { useEffect } from "react";
 
 
 let Plans = () => {
+    
 
     useEffect(() => {
         AOS.init({
@@ -18,6 +19,7 @@ let Plans = () => {
             once: true,
         });
     }, []);
+
 
     return (
         <div className="plansBackground">
@@ -110,7 +112,7 @@ let Plans = () => {
             </div>
             <div className="container">
                 <div className="row d-flex justify-content-center mb-5">
-                    <button className="plansButton">Buy Plans</button>
+                    <button className="plansButton ">Buy Plans</button>
                 </div>
             </div>
             <Footer/>

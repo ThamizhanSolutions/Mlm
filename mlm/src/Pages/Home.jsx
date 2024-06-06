@@ -11,8 +11,8 @@ import Footer from "../Components/Footer";
 function Homepage(){
     return(
         <div>
-            <Nav/>
-            <Banner/>
+         <Nav/>
+         <Banner/>
         <Services/>
         <Whychoose/>
         <Features/>

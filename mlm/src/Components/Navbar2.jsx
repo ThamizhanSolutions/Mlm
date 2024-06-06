@@ -33,10 +33,12 @@ let Navbar2 = () => {
               <div className="offcanvas-body ">
                 <hr />
                 <ul className="navbar-nav justify-content-end flex-grow-1 ">
-                <li className="nav-item my-1">
-                    <a href="/" className="nav-link menus fw-semibold mx-2">Home</a>
+                  <li className="nav-item my-1">
+                      <Link to="/homepage" className="nav-link menus fw-semibold mx-2">Home</Link>
                   </li>
-               
+                  <li className="nav-item my-1">
+                      <Link to="/about" className="nav-link menus fw-semibold mx-2">About</Link>
+                  </li>
                   <li className="nav-item my-1">
                    <Link to="/videos" className="nav-link menus fw-semibold mx-2">Videos</Link>
                   </li>
@@ -46,12 +48,8 @@ let Navbar2 = () => {
                   <li className="nav-item my-1">
                     <Link to="/contact" className="nav-link menus fw-semibold mx-2">Contact us</Link>
                   </li>
-                
                 <button className="button btn-login mx-4" onClick={handleLogout}> LOG OUT</button> 
-                    
                 </ul>
-             
-
               </div>
             </div>
           </div>
