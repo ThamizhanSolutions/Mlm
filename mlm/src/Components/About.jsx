@@ -61,7 +61,7 @@ const About = () => {
                     <p className="aboutSubTitle">We are committed to specific commitments, and we continuously strive to ongoing efforts or improvements. Together with our community, partners, and stakeholders, we are working towards a future where we describe the ideal state or ultimate goal.</p>
                 </div>
                 <div className="row mb-5">
-                    <video src={aboutVideo} className="video-fluid " muted loop autoPlay></video>
+                    <video src={aboutVideo} className="video-fluid vvv" muted loop autoPlay></video>
                 </div>
             </div>
             <Footer/>

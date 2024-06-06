@@ -10,11 +10,13 @@
     -webkit-text-fill-color: transparent;
     font-family: 'Outfit', sans-serif;
 }
+
 .aboutSubTitle{
     font-size: 30px;
     color: white;
     font-family: 'Outfit', sans-serif;
 }       
+
 .image-container {
     overflow: hidden;
 }
@@ -58,4 +60,7 @@
 
 .banner-container:hover .banner-overlay {
     opacity: 1;
+}
+.vvv{
+    border-radius: 30px;
 }
