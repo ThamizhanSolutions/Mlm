@@ -50,7 +50,7 @@ let Contact=()=>{
                 </form>
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-center mt-3" data-aos="fade-left">
-                <img src={image} class="img-fluid" alt="Placeholder Image"/>
+                <img src={image} class="img-fluid" alt="contactImage"/>
             </div>
         </div>
     </div>
