@@ -6,14 +6,15 @@ import logo from "../Assets/Images/Logo.png"
 import { Link } from "react-router-dom";
 
 let Navbar2 = () => {
+
   const handleLogout = () => {
     // Clear authentication state (replace with your own logout logic)
-    // For example, clear token from localStorage
+    // For example, clear token from localStorage   
     localStorage.removeItem('token');
-
     // Redirect to login page
     window.location.href = '/';
   };
+
   return (
     <>
       <div className="sticky-top">
@@ -25,7 +26,7 @@ let Navbar2 = () => {
             <button className="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
               <BiMenuAltRight color="rgb(245, 245, 245)"/>
             </button>
-            <div className="offcanvas offcanvas-top" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
               <div className="offcanvas-header">
               <img src={logo} alt="MLM Logo" width="200" height="60" className="mx-2 my-2" />
                 <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style={{ backgroundColor: "rgb(245, 245, 245)" }}></button>

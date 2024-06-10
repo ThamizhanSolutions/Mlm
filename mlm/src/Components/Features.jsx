@@ -23,7 +23,7 @@ function Features(){
         <div className="row row-cols-lg-3 row-cols-mg-3 row-cols-sm-3 row-cols-2 mt-5">
         {Featuresdata.map((data) => {
               return (
-                <div  className="col pb-4 h-40 d-flex justify-content-around" data-aos="fade-left">
+                <div  className="col pb-4 h-40 d-flex justify-content-around" data-aos="fade-right">
                     <div  class="card card_services ">
                         <div className="circle" >
                       <img
